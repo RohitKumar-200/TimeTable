@@ -1,0 +1,153 @@
+/* ------ Fonts -------- */
+/* vietnamese */
+@font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mulish/v1/1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNR8aivG4w-.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+    }
+    /* latin-ext */
+    @font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mulish/v1/1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNR8amvG4w-.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+    /* latin */
+    @font-face {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/mulish/v1/1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNR8aevGw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ----- Styles -------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+}
+header {
+    height: 60px;
+    padding: 0 20px;
+    background-color: #F2F8FC;
+    box-shadow: 0 0 10px -2px #000;
+    line-height: 60px;
+    vertical-align: middle;
+    color: rgb(70, 70, 70);
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    font-weight: 900;
+    font-size: 1.7em;
+}
+#date-time {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+#table-container {
+    padding: 100px 0;
+    /* background-color: blue; */
+}
+table {
+    border-collapse: collapse;
+    border: 0;
+    margin: 0 auto;
+    background-color: #f9feff;
+    font-size: 1.5em;
+}
+table td, table th {
+    border: 1px solid rgb(99, 99, 99);
+    padding: 5px 15px;
+    color: #333945;
+}
+.sc1 {
+    color: #0A79DF;
+}
+.im1 {
+    color: #AE1438;
+}
+.dd1 {
+    color: #019031;
+}
+.bs1 {
+    color: #DFAF2B;
+}
+.st2 {
+    color: #BB2CD9;
+}
+td a:hover {
+    color: #ff5252;
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 4px #ff5252;
+}
+
+#Section-SC1 {
+    width: 80%;
+    border: 2px solid #0A79DF;
+    margin: 0 auto;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.info-container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.photo-container img {
+    height: 200px;
+    border-radius: 100%;
+    border: 1px solid #0A79DF;
+}
+.info {
+    width: calc(100% - 200px);
+    text-align: center;
+}
+.info h2, .info h3, .info h4 {
+    text-align: center;
+}
+.info>p {
+    margin: 30px 0;
+    font-size: 5em;
+}
+.info a {
+    color: #0A79DF;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.info a:hover {
+    text-shadow: 0 0 2px #67E6DC;
+}
+h3 {
+    color: rgb(70, 70, 70);
+    line-height: 30px;
+}
+h4 {
+    color: #0A79DF;
+}
+h5 {
+    font-size: 1.3em;
+    color: #47535E;
+}
+.dim {
+    opacity: 0.8;
+}
+.bolder {
+    font-weight: bolder;
+}
