@@ -1,0 +1,67 @@
+[
+    {
+        "Id": "SC1",
+        "Name": "Dr. Soumendu Chakraborty",
+        "Image": "https://iiitl.ac.in/wp-content/uploads/2019/09/somendu-e1569767856595-400x363.jpg",
+        "ProfileLink": "https://iiitl.ac.in/index.php/personnel/dr-soumendu-chakraborty/",
+        "Designation": "Faculty In-Charge Technical Committee",
+        "Subject": "Theory of Computation (SC1)",
+        "Meet": "meet.google.com/nbs-jhft-yha",
+        "MeetLink": "https://meet.google.com/nbs-jhft-yha",
+        "Phone": " +1 978-414-5188",
+        "PhoneLink": "tel:+19784145188",
+        "Pin": "723206944"
+    },
+    {
+        "Id": "DD1",
+        "Name": "DR. DHANANJOY DEY",
+        "Image": "https://iiitl.ac.in/wp-content/uploads/2020/07/Dr.-Dhananjay-Dey.png",
+        "ProfileLink": "https://iiitl.ac.in/index.php/personnel/dr-dhananjoy-dey/",
+        "Designation": "Associate Professor, Dean (IPR)",
+        "Subject": "Discrete Mathematics (DD1)",
+        "Meet": "meet.google.com/kas-eshp-bpf",
+        "MeetLink": "https://meet.google.com/kas-eshp-bpf",
+        "Phone": " +1 475-222-3221",
+        "PhoneLink": "tel:+14752223221",
+        "Pin": "604606731"
+    },
+    {
+        "Id": "ST2",
+        "Name": "Mr. Sushil Kumar Tiwari",
+        "Image": "https://iiitl.ac.in/wp-content/uploads/2019/09/sushil-e1569765104867-400x363.jpg",
+        "ProfileLink": "https://iiitl.ac.in/index.php/personnel/mr-sushil-kumar-tiwari/",
+        "Designation": "Visiting Faculty",
+        "Subject": "R Language (ST2)",
+        "Meet": "meet.google.com/mdm-dgqc-enx",
+        "MeetLink": "https://meet.google.com/mdm-dgqc-enx",
+        "Phone": " +1 605-519-5268",
+        "PhoneLink": "tel:+16055195268",
+        "Pin": "849236495"
+    },
+    {
+        "Id": "IM1",
+        "Name": "Dr. Indira Mishra",
+        "Image": "https://iiitl.ac.in/wp-content/uploads/2020/07/Dr.-Indira-Mishra-236x300.jpg",
+        "ProfileLink": "https://iiitl.ac.in/index.php/personnel/dr-indira-mishra/",
+        "Designation": "Assistant Professor",
+        "Subject": "Calculus (IM1)",
+        "Meet": "meet.google.com/hcc-xguc-dqw",
+        "MeetLink": "https://meet.google.com/hcc-xguc-dqw",
+        "Phone": " +1 402-947-0141",
+        "PhoneLink": "tel:+14029470141",
+        "Pin": "898144025"
+    },
+    {
+        "Id": "BS1",
+        "Name": "Mr. Bibek Singh",
+        "Image": "https://iiitl.ac.in/wp-content/uploads/2020/07/Sri-Bibek-Singh-300x294.jpg",
+        "ProfileLink": "https://iiitl.ac.in/index.php/personnel/mr-bibek-singh/",
+        "Designation": "Visiting Faculty",
+        "Subject": "Software Management (BS1)",
+        "Meet": "",
+        "MeetLink": "",
+        "Phone": " ",
+        "PhoneLink": "",
+        "Pin": ""
+    }
+]

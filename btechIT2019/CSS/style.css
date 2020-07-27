@@ -62,7 +62,6 @@ h1 {
 }
 #table-container {
     padding: 100px 0;
-    /* background-color: blue; */
 }
 table {
     border-collapse: collapse;
@@ -96,10 +95,12 @@ td a:hover {
     text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 4px #ff5252;
 }
 
-#Section-SC1 {
+section {
     width: 80%;
+    margin: 0 auto 10px;
+}
+#Section-SC1 {
     border: 2px solid #0A79DF;
-    margin: 0 auto;
 }
 img {
     max-width: 100%;
@@ -113,6 +114,8 @@ img {
 .photo-container img {
     height: 200px;
     border-radius: 100%;
+}
+#Section-SC1 .photo-container img {
     border: 1px solid #0A79DF;
 }
 .info {
@@ -138,7 +141,7 @@ h3 {
     color: rgb(70, 70, 70);
     line-height: 30px;
 }
-h4 {
+#Section-SC1 h4 {
     color: #0A79DF;
 }
 h5 {
@@ -150,4 +153,64 @@ h5 {
 }
 .bolder {
     font-weight: bolder;
+}
+
+#Section-DD1 {
+    border: 2px solid #019031;
+}
+#Section-DD1 .photo-container img {
+    border: 1px solid #019031;
+}
+#Section-DD1 h4 {
+    color: #019031;
+}
+
+#Section-ST2 {
+    border: 2px solid #BB2CD9;
+}
+#Section-ST2 .photo-container img {
+    border: 1px solid #BB2CD9;
+}
+#Section-ST2 h4 {
+    color: #BB2CD9;
+}
+
+#Section-IM1 {
+    border: 2px solid #AE1438;
+}
+#Section-IM1 .photo-container img {
+    border: 1px solid #AE1438;
+}
+#Section-IM1 h4 {
+    color: #AE1438;
+}
+
+#Section-BS1 {
+    border: 2px solid #DFAF2B;
+}
+#Section-BS1 .photo-container img {
+    border: 1px solid #DFAF2B;
+}
+#Section-BS1 h4 {
+    color: #DFAF2B;
+}
+
+footer {
+    margin-top: 30px;
+    padding: 20px 0;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+#github-logo {
+    padding: 10px;
+    margin: 5px auto 10px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: #1A1A1A;
+
+}
+#github-logo img {
+    line-height: 50px;
+    vertical-align: middle;
 }
