@@ -23,9 +23,9 @@ fetch('api/faculties.json').then(response => {
     throw new Error('Request failed!');
     }, networkError => {console.log(networkError.message);}
     ).then(jsonResponse => {
-        console.log(jsonResponse);
+        
         const temp = document.getElementById('faculty-script').innerHTML;
-        const tempFun = Handlebars.compile(temp)   //this returns a function that takes object as argument
+        const tempFun = Handlebars.compile(temp);
         const html = tempFun({
             'faculty-array': jsonResponse
         });
